@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecuries | Formule 1</title>
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header>
+    <div>
+        <div class="topnav">
+            <div class="header-groupe">
+                <div class="header-pc">
+                    <a class="test" href="index.html"><img class="logo" src="img/logo.png" alt="Logo F1"></a>
+                    <div class="nav-pc">
+                        <a href="index.html">Accueil</a>
+                        <a href="records.html">Records</a>
+                        <a href="pilotes.html">Pilotes</a>
+                        <a href="ecuries.html">Ecuries</a>
+                        <a href="classement.html">Classement</a></div>
+                </div>
+            </div>
+            <hr>
+            <div id="myLinks">
+                <a href="index.html">Accueil</a>
+                <a href="records.html">Records</a>
+                <a href="pilotes.html">Pilotes</a>
+                <a href="ecuries.html">Ecuries</a>
+                <a href="classement.html">Classement</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img class="menu" src="img/menu.png" alt="Icone menu">
+            </a>
+
+        </div>
+    </div>
+    <div class="banner">
+        <h1>Ecuries</h1>
+        <img class="banner" src="img/ecuries.jpg" alt="Image écuries">
+        <hr>
+    </div>
+</header>
+
+<main>
+
+    <table class="tab-pilotes" >
+        <tr class="mercedes">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/records_mercedes.png" alt="Logo mercedes"></td>
+            <td class="pilote-nom">Mercedes AMG</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="redbull">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/redbull_logo.png" alt="logo redbull"></td>
+            <td class="pilote-nom">Red Bull Racing</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="mclaren">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/records_mclaren.png" alt="Logo mclaren"></td>
+            <td class="pilote-nom">McLaren</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="racingpoint">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/rp_logo.png" alt="Logo racing point"></td>
+            <td class="pilote-nom">Racing Point</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="renault">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/renault_logo.png" alt="Logo renault"></td>
+            <td class="pilote-nom">Renault</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="ferrari">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/records_ferrari.png" alt="Logo ferrari"></td>
+            <td class="pilote-nom">Scuderia Ferrari</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="alphatauri">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/alphatauri_logo.png" alt="Logo alphatauri"></td>
+            <td class="pilote-nom">Alpha Tauri</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="alfaromeo">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/alfaromeo_logo.png" alt="Logo alfaromeo"></td>
+            <td class="pilote-nom">Alfa Romeo</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="haas">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/haas_logo.png" alt="Logo Haas"></td>
+            <td class="pilote-nom">Haas F1 Team</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+        <tr class="williams">
+            <td class="pilote-voiture"><img class="ecuries-logo" src="img/williams_logo.png" alt="Logo Williams"></td>
+            <td class="pilote-nom">Williams Racing</td>
+            <td class="pilote-fleche"><img class="fleche" src="img/fleche.png"></td>
+        </tr>
+    </table>
+</main>
+
+<footer>
+    <hr>
+    <div class="socials-media">
+        <a href="https://www.instagram.com/f1/"><img src="img/001-instagram.png" alt="Logo Instagram"></a>
+        <a href="https://twitter.com/f1"><img src="img/001-twitter.png" alt="Logo Twitter"></a>
+        <a href="https://www.youtube.com/user/Formula1"><img src="img/002-youtube.png" alt="Logo Youtube"></a>
+        <a href="#"><img src="img/003-facebook.png" alt="Logo Facebook"></a>
+    </div>
+
+    <div class="copyright">
+        <img src="img/logo.png" alt="Logo F1">
+        <p>&copy; Quentin Hêche</p>
+    </div>
+</footer>
+</body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family: "Formula1 Display-Bold";
+    src: url(../fonts/Formula1-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Formula1 Display-Regular";
+    src: url(../fonts/Formula1-Regular.ttf);
+}
+
+body {
+    background-color: #181A1B;
+}
+
+hr {
+    margin: 0;
+    border: 2px solid #E10600;
+}
+
+img {
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-family: "Formula1 Display-Bold", sans-serif;
+    margin: 4%;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #A9A6A6;
+    font-family: "Formula1 Display-Regular", sans-serif;
+    margin: 4%;
+}
+
+p, ul {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2em;
+    font-family: "Titillium Web", sans-serif;
+    text-align: justify;
+    color: white;
+    line-height: 1.5em;
+}
+
+li {
+    text-align: left;
+}
+
+/*===================================
+=============== BANNER ==============
+ ===================================*/
+.banner {
+    margin-top: 20%;
+}
+
+.banner img {
+    max-width: 100%;
+    margin: 0;
+}
+
+/*===================================
+=============== FOOTER ==============
+ ===================================*/
+footer {
+    margin-top: 5%;
+    background-color: black;
+}
+
+footer img {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 15%;
+    display: inline-block;
+}
+
+.socials-media {
+    margin-top: 6%;
+    display: block;
+    text-align: center;
+}
+
+.copyright p {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.copyright img {
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*===================================
+============== HEADER ===============
+ ===================================*/
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.topnav #myLinks {
+    display: none;
+    background-color: #181A1B;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    font-family: "Formula1 Display-Bold", sans-serif;
+}
+
+.topnav a:hover {
+    color: #b7b7b7;
+    font-size: 31px;
+}
+
+#myLinks {
+    padding: 20px;
+}
+
+.icon {
+    position: fixed;
+    width: 11%;
+    height: auto;
+    top: 2.25%;
+    left: 4.5%;
+}
+
+.logo {
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+/*===================================
+=========== PAGE PILOTES ============
+ ===================================*/
+.pilote p {
+    font-size: 18px;
+}
+
+.pilote {
+    padding:0;
+    margin: 5%;
+    border-bottom: 2px solid #00D2BE;
+    border-right: 2px solid #00D2BE;
+}
+
+.pilote li {
+    list-style-type: none;
+}
+
+.voiture {
+    float: left;
+}
+
+.fleche {
+    float: right;
+    padding: 0;
+}
+
+.tab-pilotes {
+    width: 95%;
+    margin: 10% auto;
+    font-family: "Formula1 Display-Regular", sans-serif;
+    font-size: 18px;
+    color: white;
+    border-collapse: collapse;
+}
+
+.pilote-voiture {
+    width: 40%;
+}
+
+.mercedes {
+    border-bottom: 2px solid #00D2BE;
+    border-right: 2px solid #00D2BE;
+}
+.redbull {
+    border-bottom: 2px solid #0600EF;
+    border-right: 2px solid #0600EF;
+}
+.mclaren {
+    border-bottom: 2px solid #FF8700;
+    border-right: 2px solid #FF8700;
+}
+.racingpoint {
+    border-bottom: 2px solid #F596C8;
+    border-right: 2px solid #F596C8;
+}
+.renault {
+    border-bottom: 2px solid #FFF500;
+    border-right: 2px solid #FFF500;
+}
+.ferrari {
+    border-bottom: 2px solid #DC0000;
+    border-right: 2px solid #DC0000;
+}
+.alphatauri {
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.alfaromeo {
+    border-bottom: 2px solid #960000;
+    border-right: 2px solid #960000;
+}
+.haas {
+    border-bottom: 2px solid #787878;
+    border-right: 2px solid #787878;
+}
+.williams {
+    border-bottom: 2px solid #0082FA;
+    border-right: 2px solid #0082FA;
+}
+
+/*===================================
+========== PAGE CLASSEMENT ==========
+ ===================================*/
+.classement {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+.classement tr {
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+    padding: 20px;
+}
+
+.drapeau {
+    max-width: 25%;
+}
+
+.classement-rang {
+    font-family: "Formula1 Display-Bold", sans-serif;
+    font-size: 16px;
+    padding-left: 2%;
+}
+
+.classement-pilote {
+    font-family: "Formula1 Display-Regular", sans-serif;
+    font-size: 13px;
+}
+
+.classement-points {
+    font-family: "Formula1 Display Wide", sans-serif;
+    font-size: 13px;
+}
+
+.classement-mercedes {
+    border-left: 4px solid #00D2BE;
+}
+.classement-redbull {
+    border-left: 4px solid #0600EF;
+}
+.classement-mclaren {
+    border-left: 4px solid #FF8700;
+}
+.classement-racingpoint {
+    border-left: 4px solid #F596C8;
+}
+.classement-renault {
+    border-left: 4px solid #FFF500;
+}
+.classement-ferrari {
+    border-left: 4px solid #DC0000;
+}
+.classement-alphatauri {
+    border-left: 4px solid #fff;
+}
+.classement-alfaromeo {
+    border-left: 4px solid #960000;
+}
+.classement-haas {
+    border-left: 4px solid #787878;
+}
+.classement-williams {
+    border-left: 4px solid #0082FA;
+}
+
+/*===================================
+=========== PAGE ECURIES ============
+ ===================================*/
+.ecuries-logo {
+    margin-left: 10%;
+    float: left;
+    max-width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
